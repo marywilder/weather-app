@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Slackside+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx8RMF2o-OT7z6h7EbNSVpawJA6bIi4mY&libraries=places&callback=initAutocomplete">
+    </script>
+    <!--<script defer type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx8RMF2o-OT7z6h7EbNSVpawJA6bIi4mY&libraries=places&callback=initMap">-->
+</script>
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <h1>check your weather forecast...</h1>
+            <input type="text"
+             id="autocomplete" class="search-box" placeholder="search for a city" data-city-search>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">_____________</div>
+               
+                <div class="date">_______________</div>
+                
+                <div class="current">
+                    <div class="temp">__°F</div>
+                    <div class="weather">_____</div>
+                    
+                </div>
+            </section>
+            <section class="hi-low-container">
+            <div class="weather-icon"></div>
+                    <div class="weather-description">_______</div>
+                    <div class="hi-low">__°F / __°F</div>
+                    <div class="humidity">humidity: ___% </div>
+            </section>
+        </main>   
+
+    </div>
+    <script src="main.js"></script> 
+</body>
+</html>
