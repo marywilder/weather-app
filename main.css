@@ -98,6 +98,7 @@ input:focus {
 
     margin-top: 10vh;
     margin-bottom: 10vh;
+    font-size: 1rem;
     
 }
 
@@ -106,9 +107,10 @@ h1 {
     font-family: 'Slackside One', cursive;
     padding: .5rem;
     color: #7952d3;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 18rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.6rem;
     margin: 0;
 }
 
@@ -124,7 +126,7 @@ h1 {
     border-right: .25rem solid #60907d;
     border-bottom: .25rem solid var(--pine-green);
     color:  #326d53;
-    font-size: .70rem;
+    font-size: 1rem;
     padding: 1rem;
     letter-spacing: .15rem;
     text-align: center;
@@ -140,14 +142,17 @@ h1 {
         flex-flow: row nowrap;
         padding: .8rem;
         color:  #2d5644;
-        font-size: 1.2rem;
+        font-size: 1.7rem;
 
+}
+.date {
+    font-size: .8rem;
 }
 
 .temp {
     font-family: 'Slackside One', cursive;
     color:  #2d5644;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     padding: .8rem;
 }
 .hi-low-container {
@@ -160,7 +165,7 @@ h1 {
     line-height: 1.4rem;
     margin: 1.5rem;
     margin-top: 0rem;
-    font-size: .8rem;
+    font-size: 1rem;
     padding-top: .5rem;
 }
 
